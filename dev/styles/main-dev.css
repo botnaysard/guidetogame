@@ -1,0 +1,787 @@
+/* line 103, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 108, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+body {
+  background-color: #fdf6ee;
+}
+
+/* line 114, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.hide-me {
+  display: none;
+}
+
+/* line 118, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.nowrap {
+  display: inline-block;
+}
+
+/* line 124, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav {
+  height: auto;
+  line-height: 40px;
+  vertical-align: middle;
+  position: fixed;
+  background: #fdf6ee;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: #262626;
+  background-color: #262626;
+  color: #fdf6ee;
+}
+
+/* line 136, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+/* line 139, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+/* line 67, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav ul li a {
+  color: #fdf6ee;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 71, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav ul li a:visited {
+  color: #fdf6ee;
+}
+
+/* line 74, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav ul li a:hover {
+  color: #ff5900;
+}
+
+/* line 77, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav ul li a:active {
+  color: #fdf6ee;
+}
+
+/* line 149, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+nav a {
+  height: 40px;
+}
+
+/* line 154, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#menu-booking {
+  color: #f9b424;
+}
+
+/* line 158, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#menu-booking:hover {
+  color: #ff5900;
+}
+
+/* line 164, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#masthead {
+  min-height: 100%;
+  background: url("../images/forest-header.jpg") no-repeat center center scroll;
+}
+
+/* line 169, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+/* line 67, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text a {
+  color: #fdf6ee;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 71, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text a:visited {
+  color: #fdf6ee;
+}
+
+/* line 74, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text a:hover {
+  color: #fdf6ee;
+}
+
+/* line 77, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text a:active {
+  color: #262626;
+}
+
+/* line 175, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text h1 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  color: #fdf6ee;
+  font-size: 120px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+/* line 186, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mast-text h3 {
+  color: #fdf6ee;
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  font-weight: regular;
+}
+
+/* line 198, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#g2g-header-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 50px;
+  left: 0;
+  right: 0;
+}
+
+/* line 210, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#options-bar {
+  margin-top: 25px;
+  color: #fdf6ee;
+  width: 100%;
+}
+
+/* line 214, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#options-bar p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+/* line 222, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#header-down {
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 227, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#down-arrow {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #fdf6ee;
+  width: 75px;
+  height: 60px;
+  margin: 30px auto 0px auto;
+  padding-top: 15px;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 237, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#down-arrow:hover {
+  cursor: pointer;
+  background-color: #ff5900;
+}
+
+/* line 243, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.white-block {
+  color: #262626;
+  background-color: #fdf6ee;
+  padding: 70px 0px;
+}
+
+/* line 249, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.image-block {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 33%;
+  padding: 70px 0px;
+}
+
+/* line 255, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.allcaps {
+  text-transform: uppercase;
+}
+
+/* line 261, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome, #courses, #guided-hunts, #locations, #fineprint {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+/* line 44, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome h1, #courses h1, #guided-hunts h1, #locations h1, #fineprint h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* line 54, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome h3, #courses h3, #guided-hunts h3, #locations h3, #fineprint h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 61, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome p, #courses p, #guided-hunts p, #locations p, #fineprint p {
+  margin-bottom: 40px;
+}
+
+/* line 67, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome a, #courses a, #guided-hunts a, #locations a, #fineprint a {
+  color: #ff5900;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 71, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome a:visited, #courses a:visited, #guided-hunts a:visited, #locations a:visited, #fineprint a:visited {
+  color: #ff5900;
+}
+
+/* line 74, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome a:hover, #courses a:hover, #guided-hunts a:hover, #locations a:hover, #fineprint a:hover {
+  color: #ff5900;
+}
+
+/* line 77, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome a:active, #courses a:active, #guided-hunts a:active, #locations a:active, #fineprint a:active {
+  color: #ff5900;
+}
+
+/* line 266, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#welcome a:hover, #courses a:hover, #guided-hunts a:hover {
+  text-decoration: underline;
+}
+
+/* line 270, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#img-block-one {
+  background-image: url("../images/imageblock1.jpg");
+}
+
+/* line 274, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#img-block-two {
+  background-image: url("../images/imageblock2.jpg");
+}
+
+/* line 278, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#img-block-three {
+  background-image: url("../images/imageblock3.jpg");
+}
+
+/* line 282, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#img-block-four {
+  background-image: url("../images/imageblock4.jpg");
+}
+
+/* line 286, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#img-block-five {
+  background-image: url("../images/imageblock5.jpg");
+}
+
+/* line 292, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#staff {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+  width: 85% !important;
+}
+
+/* line 44, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#staff h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* line 54, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#staff h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 61, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#staff p {
+  margin-bottom: 40px;
+}
+
+/* line 298, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.staff-row {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* line 303, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.staff-box {
+  margin: 20px 50px 0px 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 307, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.staff-box:hover {
+  cursor: pointer;
+  color: #ff5900;
+}
+
+/* line 313, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.ghost-box {
+  width: 354px;
+  display: inline-block;
+}
+
+/* line 318, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.staff-pic {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  width: 250px;
+  height: 250px;
+  margin: 15px auto;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 324, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.staff-pic:hover {
+  border: 2px solid #ff5900;
+  cursor: pointer;
+}
+
+/* line 331, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.staff-name {
+  margin: 25px 0px 0px 0px;
+  padding: 25px 0px;
+  font-size: 30px;
+  border: 1px solid transparent;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 341, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.bio-box {
+  margin: 0px auto;
+  padding: 25px;
+  width: 85% !important;
+  text-align: left;
+  display: none;
+}
+
+/* line 349, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.close-bio {
+  width: 100%;
+  text-align: right;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 353, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.close-bio:hover {
+  cursor: pointer;
+  color: #ff5900;
+}
+
+/* line 359, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#red-pic {
+  background: url("../images/red.jpg") no-repeat center center scroll;
+}
+
+/* line 363, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#mj-pic {
+  background: url("../images/mj.jpg") no-repeat center center scroll;
+}
+
+/* line 369, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#course-list {
+  width: 95%;
+  margin: 0px auto;
+}
+
+/* line 374, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.course-module {
+  width: 95%;
+  height: auto;
+  margin: 0px auto 10px auto;
+  padding: 0px;
+}
+
+/* line 381, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.course-title {
+  width: 78%;
+  height: auto;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+/* line 385, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.course-title:hover {
+  cursor: pointer;
+  cursor: pointer;
+  color: #ff5900;
+}
+
+/* line 392, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.course-module h3 {
+  margin: 0px;
+}
+
+/* line 396, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.course-price {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+/* line 403, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.course-description {
+  width: 78%;
+  height: auto;
+}
+
+/* line 408, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#fineprint {
+  margin-top: 120px;
+  border-top: 1px solid #262626;
+  text-align: left;
+}
+
+/* line 414, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#arrow-up-ohep,
+#arrow-up-cfsc,
+#arrow-up-crfsc,
+#arrow-up-allinone,
+#arrow-up-bearanoia,
+#arrow-up-ibep,
+#arrow-up-ibep,
+#arrow-up-shooting,
+#arrow-up-bowhunting {
+  display: none;
+}
+
+/* line 428, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#locations {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  width: 90%;
+}
+
+/* line 44, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#locations h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* line 54, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#locations h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 61, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#locations p {
+  margin-bottom: 40px;
+}
+
+/* line 433, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#locations-container {
+  vertical-align: middle;
+}
+
+/* line 437, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#map-container {
+  height: 350px;
+  width: 450px;
+  display: inline-block;
+}
+
+/* line 443, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.locations-row {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+/* line 448, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.address-box {
+  width: 300px;
+  display: inline-block;
+  padding: 15px 0px;
+  border: 1px solid transparent;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 454, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.address-box:hover {
+  cursor: pointer;
+  cursor: pointer;
+  color: #ff5900;
+}
+
+/* line 460, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.selected-location {
+  border: 1px solid #262626;
+  padding: 15px 0px;
+  height: auto;
+}
+
+/* line 468, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+footer {
+  height: 300px;
+  background-color: #262626;
+  color: #fdf6ee;
+}
+
+/* line 67, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+footer a {
+  color: #fdf6ee;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 71, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+footer a:visited {
+  color: #fdf6ee;
+}
+
+/* line 74, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+footer a:hover {
+  color: #ff5900;
+}
+
+/* line 77, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+footer a:active {
+  color: #fdf6ee;
+}
+
+/* line 477, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#form-container {
+  width: 50%;
+  margin: 0px auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+/* line 484, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#form-container h1 {
+  font-size: 48px;
+  color: #262626;
+  text-transform: uppercase;
+}
+
+/* line 490, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.form-inline-component {
+  display: inline-block;
+  width: 49%;
+}
+
+/* line 495, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.form-subject {
+  width: 100%;
+}
+
+/* line 499, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#form-header {
+  width: auto;
+  text-align: center;
+}
+
+/* line 504, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#contact-g2g {
+  margin-top: 20px;
+  color: #262626;
+}
+
+/* line 509, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#contact-g2g input:not([type=submit]), #contact-g2g textarea {
+  color: #262626;
+  background-color: white;
+  width: 97%;
+  margin-bottom: 35px;
+  margin-top: 7px;
+  border: 1px solid #262626;
+  padding: 5px;
+}
+
+/* line 519, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#contact-g2g textarea {
+  height: 200px;
+}
+
+/* line 523, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#initiate-contact {
+  width: auto;
+  text-align: center;
+}
+
+/* line 528, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#initiate-contact input[type=submit], #gotobooking {
+  width: 175px;
+  height: auto;
+  background-color: #fdf6ee;
+  color: #262626;
+  border: 1px solid #262626;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.18s ease-in-out 0s;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/* line 547, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#initiate-contact input[type=submit]:hover, #gotobooking:hover {
+  cursor: pointer;
+  color: #ff5900;
+  border: 1px solid #ff5900;
+}
+
+/* line 552, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#gotobooking {
+  width: 250px;
+}
+
+/* line 556, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#gotobooking a {
+  transition: all 0.18s ease-in-out 0s;
+  text-decoration: none;
+  color: #262626;
+}
+
+/* line 562, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#gotobooking a:hover {
+  cursor: pointer;
+  color: #ff5900;
+}
+
+/* line 566, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#bookingcontainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 115px;
+}
+
+/* line 572, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.footer-content {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 579, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#copyright-info {
+  font-size: 12px;
+}
+
+/* line 583, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#social-bar {
+  text-align: center;
+  padding: 70px 0px;
+}
+
+/* line 588, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#social-bar ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+/* line 593, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+#social-bar li {
+  display: inline;
+  margin-right: 50px;
+}
+
+/* line 598, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.booking-button {
+  width: 250px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fdf6ee;
+  border: 1px solid #fdf6ee;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 70px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+/* line 616, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+.booking-button:hover {
+  cursor: pointer;
+  background-color: #ff5900;
+}
+
+@media only screen and (orientation: portrait) {
+  /* line 626, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+  #welcome, #courses, #guided-hunts, #locations, #fineprint, #staff, #form-container {
+    width: 90%;
+    font-size: 30px;
+  }
+  /* line 629, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+  #welcome h1, #courses h1, #guided-hunts h1, #locations h1, #fineprint h1, #staff h1, #form-container h1 {
+    font-size: 72px;
+  }
+  /* line 632, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+  #welcome h3, #courses h3, #guided-hunts h3, #locations h3, #fineprint h3, #staff h3, #form-container h3 {
+    font-size: 36px;
+  }
+  /* line 636, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+  .image-block {
+    height: 10%;
+  }
+  /* line 639, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+  nav {
+    line-height: 60px;
+  }
+  /* line 642, C:/Users/temporary/Coding/g2g2016/styles/scss/main.scss */
+  nav ul li {
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=../main.map */

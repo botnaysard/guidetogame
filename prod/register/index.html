@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Guide to Game Course Registration</title>
+	<link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="register.js"></script>
+</head>
+<body>
+	<h1>Guide to Game Course Registration</h1>
+	<form id="registration">
+		<fieldset>
+			<h3>Instructions</h3>
+			<ul>
+				<li>Browse the upcoming courses and select the one you want to take.</li>
+				<li>Complete all required fields; you can't submit the form if you don't.</li>
+				<li>Follow the instructions in the "Payment Method" section carefully</li>
+				<li>If you have any questions, contact us at <strong>guidetogame&#64;gmail.com</strong></li>
+				<li>For course descriptions and more information about Guide to Game, check the <a href="http://www.guidetogame.com">main site</a>.</li>
+
+			</ul>
+		</fieldset>
+		<fieldset id="courses">
+		    <h3>Upcoming Courses</h3>
+			<select name="courseinfo" id="courseinfo">
+				<!-- <option value="February 23-24, 2018 CFSC @ EO">February 23-24, 2018 CFSC (Easthill Outdoors) - $185</option>
+				<option value="February 25, 2018 CRFSC @ EO">February 25, 2018 CRFSC (Easthill Outdoors) - $185</option> -->
+				<option value="March 25, 2018, CRFSC @ EO">March 25, 2018 CRFSC (Easthill Outdoors) - $185</option>
+				<option value="March 30 - April 1, 2018, All-in-One @ Ranch">March 30 - April 1, 2018 All-in-One (Guide to Game Ranch) - $325</option>
+				<option value="March 30-31, 2018 CFSC @ Ranch">March 30-31, 2018 CFSC (Guide to Game Ranch) - $185</option>
+				<option value="March 30 - April 1, 2018 OHEP @ Ranch">March 30 - April 1 2018 OHEP (Guide to Game Ranch) - $195</option>
+				<option value="April 13-15, 2018, All-in-One @ EO">April 13-15, 2018 All-in-One (Easthill Outdoors) - $325</option>
+				<option value="April 13-14, 2018 CFSC @ EO">April 13-14, 2018 CFSC (Easthill Outdoors) - $185</option>
+				<option value="April 14-15, 2018 OHEP @ EO">April 14-15, 2018 OHEP (Easthill Outdoors) - $195</option>
+				<option value="April 22, 2018 CRFSC @ EO">April 22, 2018 CRFSC (Easthill Outdoors) - $185</option>
+				<option value="May 11-13, 2018, All-in-One @ Ranch">May 11-13, 2018 All-in-One (Guide to Game Ranch) - $325</option>
+				<option value="May 11-12, 2018 CFSC @ Ranch">May 11-12, 2018 CFSC (Guide to Game Ranch) - $185</option>
+				<option value="May 12-13, 2018 OHEP @ Ranch">May 12-13, 2018 OHEP (Guide to Game Ranch) - $195</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<h3>Vitals</h3>
+	        *First Name: <input type="text" id="fname" required>
+	        <br>
+	        *Last Name: <input type="text" id="lname" required>
+	        <br>
+	        *Date of Birth (dd-mm-yyyy): 
+			<select name="birthday" id="birthday">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="16">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			 - 
+			<select name="birthmonth" id="birthmonth">
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+			</select>
+			 -
+			 <!-- validate year -->
+			 <script> 
+			 function validateYear(year){
+    			if (year.length > 4) {
+    				document.getElementById("birthyear").style.border = "1px solid red";
+					//alert("Enter a valid e-mail address.");
+					return false;
+						} else {
+							document.getElementById("birthyear").style.border = "1px solid #666";
+						}
+			}
+			</script>
+			<input type="number" id="birthyear" min="1900" max="2018" onblur="validateYear(this.value);" required>
+			<br>
+			*Sex: 
+		    <select name="regsex" id="regsex">
+		    	<option value="male">Male</option>
+		    	<option value="female">Female</option>
+		    </select>
+			<br>
+		    *Eye Color:
+		    <select name="eyecol" id="eyecol">
+				<option value="Brown">Brown</option>
+				<option value="Blue">Blue</option>
+				<option value="Green">Green</option>
+				<option value="Grey/Silver">Grey/Silver</option>
+				<option value="Hazel">Hazel</option>
+				<option value="Amber">Amber</option>
+				<option value="Other">Other</option>
+			</select>
+
+			<!-- begin validation script -->
+			<script type="text/javascript">
+				function validateEmail(sEmail) {
+					var reEmail = /^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!\.)){0,61}[a-zA-Z0-9]?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!$)){0,61}[a-zA-Z0-9]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/;
+						if(!sEmail.match(reEmail)) {
+					document.getElementById("regemail").style.border = "1px solid red";
+					//alert("Enter a valid e-mail address.");
+					return false;
+						} else {
+							document.getElementById("regemail").style.border = "1px solid #666";
+						}
+						return true;
+				}
+			</script>
+			<script type="text/javascript">
+				function validatePhone(sPhone, phoneID) {
+					var rePhone = /^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$/;
+						if(!sPhone.match(rePhone)) {
+					document.getElementById(phoneID).style.border = "1px solid red";
+					//alert("Enter a valid e-mail address.");
+					return false;
+						} else {
+							document.getElementById(phoneID).style.border = "1px solid #666";
+						}
+						return true;
+				}
+			</script>
+			<script type="text/javascript">
+				function validatePostal(sPostal) {
+					var rePostal = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
+						if(!sPostal.match(rePostal)) {
+					document.getElementById("postcode").style.border = "1px solid red";
+					//alert("Enter a valid e-mail address.");
+					return false;
+						} else {
+							document.getElementById("postcode").style.border = "1px solid #666";
+						}
+						return true;
+				}
+			</script>
+			<!-- end validation script -->
+			<br>
+	        *Height(cm): <input type="text" id="height" required> (convert from imperial to metric <a href="http://www.height-converter.com/" class="color-emphasis" target="_blank">here</a>)
+	        <br>
+	        *Street Address: <input type="text" id="streetaddy" required>
+	        <br>
+	        *Postal Code: <input type="text" id="postcode" required onblur="validatePostal(this.value);">
+	        <br>
+	        *Day Phone: <input type="text" id="dayphone" required onblur="validatePhone(this.value, this.id);">
+	        <br>
+	        *Night Phone: <input type="text" id="nightphone" required onblur="validatePhone(this.value, this.id);">
+	        <br>
+	        *E-mail: <input type="text" id="regemail" required onblur="validateEmail(this.value);">
+	        <br>
+	        Preferred contact method:
+	        <select name="prefcont" id="prefcont">
+	        	<option value="dayphone">Day phone - call</option>
+	        	<option value="daytext">Day phone - text</option>
+	        	<option value="nightphone">Night phone - call</option>
+	        	<option value="nighttext">Night phone - text</option>
+	        	<option value="email">E-mail</option>
+	        </select>
+	        <br>
+	        <br>
+			Additional Comments:
+			<br>
+			<textarea id="comments"></textarea>
+        </fieldset>
+		<fieldset>
+			<h3>Payment Information</h3>
+	    *Payment Method:
+	    	<select name="method" id="method">
+			<option value="e-transfer">Interac e-Transfer (preferred)</option>
+			<option value="cc">Credit Card</option>
+			<option value="other">Other</option>
+		</select>
+		<div class="all-caps"><strong>Important - Please Read!</strong></div>
+		<div>
+			If wish to pay by <strong>Interac E-mail Transfer</strong> please send the funds to <strong>guidetogame&#64;gmail.com</strong> as soon as possible after submitting the form.
+		</div>
+		<div>
+			If you wish to pay by <strong>Credit Card</strong> submit your information and proceed to our <strong><a href="https://squareup.com/store/guidetogame" class="color-emphasis">payment portal</a></strong>. 
+		</div>
+		</fieldset>
+		<input type="submit" value="Register" id="go-button">
+	</form>
+	<p>&copy; Guide to Game 2007-2018.</p>
+</body>
+</html>

@@ -1,0 +1,679 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fdf6ee;
+}
+
+.hide-me {
+  display: none;
+}
+
+.nowrap {
+  display: inline-block;
+}
+
+nav {
+  height: auto;
+  line-height: 40px;
+  vertical-align: middle;
+  position: fixed;
+  background: #fdf6ee;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: #262626;
+  background-color: #262626;
+  color: #fdf6ee;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #fdf6ee;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+nav ul li a:visited {
+  color: #fdf6ee;
+}
+
+nav ul li a:hover {
+  color: #ff5900;
+}
+
+nav ul li a:active {
+  color: #fdf6ee;
+}
+
+nav a {
+  height: 40px;
+}
+
+#menu-booking {
+  color: #f9b424;
+}
+
+#menu-booking:hover {
+  color: #ff5900;
+}
+
+#masthead {
+  min-height: 100%;
+  background: url("../images/forest-header.jpg") no-repeat center center scroll;
+}
+
+#mast-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#mast-text a {
+  color: #fdf6ee;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+#mast-text a:visited {
+  color: #fdf6ee;
+}
+
+#mast-text a:hover {
+  color: #fdf6ee;
+}
+
+#mast-text a:active {
+  color: #262626;
+}
+
+#mast-text h1 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  color: #fdf6ee;
+  font-size: 120px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+#mast-text h3 {
+  color: #fdf6ee;
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  font-weight: regular;
+}
+
+#g2g-header-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 50px;
+  left: 0;
+  right: 0;
+}
+
+#options-bar {
+  margin-top: 25px;
+  color: #fdf6ee;
+  width: 100%;
+}
+
+#options-bar p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+#header-down {
+  display: inline-block;
+  text-align: center;
+}
+
+#down-arrow {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #fdf6ee;
+  width: 75px;
+  height: 60px;
+  margin: 30px auto 0px auto;
+  padding-top: 15px;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+#down-arrow:hover {
+  cursor: pointer;
+  background-color: #ff5900;
+}
+
+.white-block {
+  color: #262626;
+  background-color: #fdf6ee;
+  padding: 70px 0px;
+}
+
+.image-block {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 33%;
+  padding: 70px 0px;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+#welcome, #courses, #guided-hunts, #locations, #fineprint {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+#welcome h1, #courses h1, #guided-hunts h1, #locations h1, #fineprint h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+#welcome h3, #courses h3, #guided-hunts h3, #locations h3, #fineprint h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+#welcome p, #courses p, #guided-hunts p, #locations p, #fineprint p {
+  margin-bottom: 40px;
+}
+
+#welcome a, #courses a, #guided-hunts a, #locations a, #fineprint a {
+  color: #ff5900;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+#welcome a:visited, #courses a:visited, #guided-hunts a:visited, #locations a:visited, #fineprint a:visited {
+  color: #ff5900;
+}
+
+#welcome a:hover, #courses a:hover, #guided-hunts a:hover, #locations a:hover, #fineprint a:hover {
+  color: #ff5900;
+}
+
+#welcome a:active, #courses a:active, #guided-hunts a:active, #locations a:active, #fineprint a:active {
+  color: #ff5900;
+}
+
+#welcome a:hover, #courses a:hover, #guided-hunts a:hover {
+  text-decoration: underline;
+}
+
+#img-block-one {
+  background-image: url("../images/imageblock1.jpg");
+}
+
+#img-block-two {
+  background-image: url("../images/imageblock2.jpg");
+}
+
+#img-block-three {
+  background-image: url("../images/imageblock3.jpg");
+}
+
+#img-block-four {
+  background-image: url("../images/imageblock4.jpg");
+}
+
+#img-block-five {
+  background-image: url("../images/imageblock5.jpg");
+}
+
+#staff {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+  width: 85% !important;
+}
+
+#staff h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+#staff h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+#staff p {
+  margin-bottom: 40px;
+}
+
+.staff-row {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.staff-box {
+  margin: 20px 50px 0px 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.staff-box:hover {
+  cursor: pointer;
+  color: #ff5900;
+}
+
+.ghost-box {
+  width: 354px;
+  display: inline-block;
+}
+
+.staff-pic {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  width: 250px;
+  height: 250px;
+  margin: 15px auto;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+.staff-pic:hover {
+  border: 2px solid #ff5900;
+  cursor: pointer;
+}
+
+.staff-name {
+  margin: 25px 0px 0px 0px;
+  padding: 25px 0px;
+  font-size: 30px;
+  border: 1px solid transparent;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+.bio-box {
+  margin: 0px auto;
+  padding: 25px;
+  width: 85% !important;
+  text-align: left;
+  display: none;
+}
+
+.close-bio {
+  width: 100%;
+  text-align: right;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+.close-bio:hover {
+  cursor: pointer;
+  color: #ff5900;
+}
+
+#red-pic {
+  background: url("../images/red.jpg") no-repeat center center scroll;
+}
+
+#mj-pic {
+  background: url("../images/mj.jpg") no-repeat center center scroll;
+}
+
+#sam-pic {
+  background: url("../images/sam.jpg") no-repeat center center scroll;
+}
+
+#course-list {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.course-module {
+  width: 95%;
+  height: auto;
+  margin: 0px auto 10px auto;
+  padding: 0px;
+}
+
+.course-title {
+  width: 78%;
+  height: auto;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+.course-title:hover {
+  cursor: pointer;
+  cursor: pointer;
+  color: #ff5900;
+}
+
+.course-module h3 {
+  margin: 0px;
+}
+
+.course-price {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.course-description {
+  width: 78%;
+  height: auto;
+}
+
+#fineprint {
+  margin-top: 120px;
+  border-top: 1px solid #262626;
+  text-align: left;
+}
+
+#arrow-up-ohep,
+#arrow-up-cfsc,
+#arrow-up-crfsc,
+#arrow-up-allinone,
+#arrow-up-bearanoia,
+#arrow-up-ibep,
+#arrow-up-ibep,
+#arrow-up-shooting,
+#arrow-up-bowhunting {
+  display: none;
+}
+
+#locations {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  width: 90%;
+}
+
+#locations h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+#locations h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+#locations p {
+  margin-bottom: 40px;
+}
+
+#locations-container {
+  vertical-align: middle;
+}
+
+#map-container {
+  height: 350px;
+  width: 450px;
+  display: inline-block;
+}
+
+.locations-row {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.address-box {
+  width: 300px;
+  display: inline-block;
+  padding: 15px 0px;
+  border: 1px solid transparent;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+.address-box:hover {
+  cursor: pointer;
+  cursor: pointer;
+  color: #ff5900;
+}
+
+.selected-location {
+  border: 1px solid #262626;
+  padding: 15px 0px;
+  height: auto;
+}
+
+footer {
+  height: 300px;
+  background-color: #262626;
+  color: #fdf6ee;
+}
+
+footer a {
+  color: #fdf6ee;
+  text-decoration: none;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+footer a:visited {
+  color: #fdf6ee;
+}
+
+footer a:hover {
+  color: #ff5900;
+}
+
+footer a:active {
+  color: #fdf6ee;
+}
+
+#form-container {
+  width: 50%;
+  margin: 0px auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+#form-container h1 {
+  font-size: 48px;
+  color: #262626;
+  text-transform: uppercase;
+}
+
+.form-inline-component {
+  display: inline-block;
+  width: 49%;
+}
+
+.form-subject {
+  width: 100%;
+}
+
+#form-header {
+  width: auto;
+  text-align: center;
+}
+
+#contact-g2g {
+  margin-top: 20px;
+  color: #262626;
+}
+
+#contact-g2g input:not([type=submit]), #contact-g2g textarea, select {
+  color: #262626;
+  background-color: white;
+  width: 97%;
+  margin-bottom: 35px;
+  margin-top: 7px;
+  border: 1px solid #262626;
+  padding: 5px;
+}
+
+#contact-g2g textarea {
+  height: 200px;
+}
+
+#initiate-contact {
+  width: auto;
+  text-align: center;
+}
+
+#initiate-contact input[type=submit], #gotobooking {
+  width: 175px;
+  height: auto;
+  background-color: #fdf6ee;
+  color: #262626;
+  border: 1px solid #262626;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.18s ease-in-out 0s;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#initiate-contact input[type=submit]:hover, #gotobooking:hover {
+  cursor: pointer;
+  color: #ff5900;
+  border: 1px solid #ff5900;
+}
+
+#gotobooking {
+  width: 250px;
+}
+
+#gotobooking a {
+  transition: all 0.18s ease-in-out 0s;
+  text-decoration: none;
+  color: #262626;
+}
+
+#gotobooking a:hover {
+  cursor: pointer;
+  color: #ff5900;
+}
+
+#bookingcontainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 115px;
+}
+
+.footer-content {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+#copyright-info {
+  font-size: 12px;
+}
+
+#social-bar {
+  text-align: center;
+  padding: 70px 0px;
+}
+
+#social-bar ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+#social-bar li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.booking-button {
+  width: 250px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fdf6ee;
+  border: 1px solid #fdf6ee;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 70px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  transition: all 0.18s ease-in-out 0s;
+}
+
+.booking-button:hover {
+  cursor: pointer;
+  background-color: #ff5900;
+}
+
+@media only screen and (orientation: portrait) {
+  #welcome, #courses, #guided-hunts, #locations, #fineprint, #staff, #form-container {
+    width: 90%;
+    font-size: 40px;
+  }
+  #welcome h1, #courses h1, #guided-hunts h1, #locations h1, #fineprint h1, #staff h1, #form-container h1 {
+    font-size: 72px;
+  }
+  #welcome h3, #courses h3, #guided-hunts h3, #locations h3, #fineprint h3, #staff h3, #form-container h3 {
+    font-size: 50px;
+  }
+  .image-block {
+    height: 10%;
+  }
+  #masthead {
+  min-height: 75%;
+  } 
+  nav {
+    line-height: 60px;
+  }
+  nav ul li {
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

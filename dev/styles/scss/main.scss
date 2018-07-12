@@ -1,0 +1,959 @@
+// VARIABLES //
+
+// fonts //
+$font-sans: 'Raleway', sans-serif;
+$font-serif: 'Playfair Display', serif;
+// colors //
+$highlight-color: #f9b424;
+$light-color: #fdf6ee;
+$dark-color: #262626;
+$click-color: #ff5900;
+// text sizes //
+$standardh1size: 48px;
+$standardh3size: 24px;
+$stdfontsize: 20px;
+// spacing //
+$standardmargintopbottom: 70px;
+// borders //
+$stdlightborder: 1px solid $light-color;
+$stddarkborder: 1px solid $dark-color;
+// transparencies //
+$dark-container: rgba(0, 0, 0, 0.4);
+$frost-container: rgba(255, 255, 255, 0.4);
+$clear-container: rgba(255, 255, 255, 0);
+// transitions //
+$stdtransition: all 0.18s ease-in-out 0s;
+
+// MIXINS //
+
+@mixin parallax-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+@mixin type-container {
+  width: 65%;
+  margin: 0px auto;
+  line-height: 150%;
+  font: {
+    size: $stdfontsize;
+    family: $font-sans;
+    weight: 300;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 50px; 
+    text-transform: uppercase;
+    font: {
+      size: $standardh1size;
+      family: $font-sans;
+      weight: bold;
+    }
+  }
+  h3 {
+    text-align: left;
+    font: {
+      size: $standardh3size;
+      family: $font-sans;
+      weight: 300;
+    }
+  }
+  p {
+    margin-bottom: 40px;
+  }
+}
+
+@mixin linx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    text-decoration: none; 
+            transition: $stdtransition;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;  
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@mixin click-me {
+  cursor: pointer;
+  background-color: $click-color;
+}
+
+@mixin text-click {
+  cursor: pointer;
+  color: $click-color; 
+}
+
+@mixin circular {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+// STYLES //
+
+// Establish viewport width and height for dynamic sizing //
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: $light-color;
+  position: relative;
+}
+
+// Invisible elements //
+
+.hide-me {
+  display: none;
+}
+
+.nowrap {
+  display: inline-block;
+}
+
+// Header //
+
+#d-menu, #m-menu {
+  height: auto;
+  line-height: 40px;
+  vertical-align: middle;
+  position: fixed;
+  background: $light-color;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: $dark-color;
+  background-color: $dark-color;
+  color: $light-color;  
+  ul {
+  list-style-type: none;
+  margin: 0px;
+    li {
+      @include linx ($light-color, $light-color, $highlight-color, $light-color);
+      display: inline-block;
+      text-transform: uppercase;
+      margin-right: 30px;
+      font: {
+      weight: bold;
+      }
+    }
+  }
+  a {
+    height: 40px;
+  }
+}
+
+#menu-booking {
+  color: #ff5900 !important;
+}
+
+#menu-booking:hover {
+  color: $highlight-color !important
+}
+
+#m-menu, #m-bar {
+  display: none;
+}
+
+// Masthead //
+
+#masthead {
+  min-height: 100%;
+  background: url('../images/forest-header.jpg') no-repeat center center scroll; 
+}
+
+#mast-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  @include linx ($light-color, $light-color, $light-color, $dark-color);
+  display: table;
+  h1 {  
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: $light-color;
+    font: {
+    size: 120px;
+    family: $font-serif;
+    weight: bold;
+    }
+  }
+  h3 {
+    color: $light-color;
+    margin: 5px 0px;
+    text-transform: uppercase;
+    font: {
+    size: 26px;
+    family: $font-sans;
+    weight: regular;
+    }
+  }
+  h5 {
+    font: {
+    size: 20px;
+    }
+    margin: 0px 0px 10px 0px;
+    text-decoration: underline;
+  }
+}
+
+#g2g-header-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 50px;
+  left: 0;
+  right: 0;
+}
+
+#options-bar {
+  margin-top: 60px;
+  color: $light-color;
+  width: 100%;
+  p {
+    font:{
+    family: $font-sans;
+    weight: 200;
+    size: 24px;        }
+  }
+}
+
+#header-down {
+  display: inline-block;
+  text-align: center;
+}
+
+#events-preview {
+  width: 540px;
+  height: 115px;
+  margin: 30px auto 0px auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  font: {
+    weight: 300;
+  }
+  overflow: hidden;
+  position: relative;
+}
+
+#events-preview::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+#events-preview:hover {
+  cursor: pointer;
+}
+
+#event-list {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  position: absolute;
+    top: 35px;
+    bottom: 0px;
+    left: 0px;
+    right: -25px; /* exact value is given through JavaScript */
+    overflow: auto;
+}
+
+#event-list p {
+  font-size: 1em;
+  margin: 3px 0px;
+}
+
+.scroller {
+  height: 70px;
+  width: 520px;
+  padding: 0px 10px;
+}
+
+select::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+select::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+select:focus {
+  outline: none;
+  border: none;
+}
+
+option {
+  margin-right: 7px;
+}
+
+/*
+#g2g-header-block img {
+  -webkit-transform: scale(0.9); 
+     -moz-transform: scale(0.9); 
+      -ms-transform: scale(0.9); 
+       -o-transform: scale(0.9); 
+          transform: scale(0.9);
+}
+*/
+
+#header-down div {
+  margin: 5px 0px;
+}
+
+// Recurring sections //
+
+.white-block {
+  color: $dark-color;
+  background-color: $light-color;
+  padding: $standardmargintopbottom 0px;
+}
+
+.image-block {
+  @include parallax-bg;
+  height: 33%;
+  padding: $standardmargintopbottom 0px;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+// Specific content sections
+
+#welcome, #courses, #guided-hunts, #locations, #fineprint {
+  @include type-container;
+  @include linx ($click-color, $click-color, $click-color, $click-color);
+}
+
+#welcome a:hover, #courses a:hover, #guided-hunts a:hover  {
+  text-decoration: underline;
+}
+
+#img-block-one {
+    background-image:url('../images/imageblock1.jpg'); 
+}
+
+#img-block-two {
+    background-image:url('../images/imageblock2.jpg'); 
+}
+
+#img-block-three {
+    background-image:url('../images/imageblock3.jpg'); 
+}
+
+#img-block-four {
+    background-image:url('../images/imageblock4.jpg'); 
+}
+
+#img-block-five {
+    background-image:url('../images/imageblock5.jpg'); 
+}
+
+// Staff //
+
+#staff {
+  @include type-container;
+  padding-top: 20px;
+  width: 85% !important;
+}
+
+.staff-row {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.staff-box {
+  margin: 20px 50px 0px 50px;
+  text-align: center;
+  display: inline-block;
+  &:hover {
+    cursor: pointer;
+    color: $click-color;
+  }
+}
+
+.ghost-box {
+  width: 354px; // must = width + padding-left + padding-right of .staff-box
+  display: inline-block;
+}
+
+.staff-pic {
+  @include circular;
+  width: 250px;
+  height: 250px;
+  margin: 15px auto;
+  &:hover {
+    border: 1px solid $click-color;
+    cursor: pointer;
+  }
+    transition: $stdtransition;
+}
+
+.staff-name {
+  margin: 25px 0px 0px 0px;
+  padding: 25px 0px;
+  font: {
+    size: 30px;
+  }
+  border: 1px solid transparent;
+  transition: $stdtransition;
+}
+
+.bio-box {
+  margin: 0px auto;
+  padding: 25px;
+  width: 85% !important;
+  text-align: left;
+  display: none;
+}  
+
+.close-bio {
+  width: 100%;
+  text-align: right;
+  transition: $stdtransition;
+  &:hover {
+    cursor: pointer;
+    color: $click-color;
+  }
+} 
+
+#red-pic {
+  background: url('../images/red.jpg') no-repeat center center scroll; 
+}
+
+#mj-pic {
+  background: url('../images/mj.jpg') no-repeat center center scroll; 
+}
+
+#sam-pic {
+  background: url('../images/sam.jpg') no-repeat center center scroll; 
+}
+
+//Courses and Fees //
+
+#course-list {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.course-module {
+  width: 95%;
+  height: auto;
+  margin: 0px auto 10px auto;
+  padding: 0px;
+}
+
+.course-title {
+  width: 78%;
+  height: auto;
+  display: inline-block;
+  &:hover {
+    cursor: pointer;
+    @include text-click;
+  }
+  margin: 5px 0px;
+}
+
+.course-module h3 {
+  margin: 0px;
+}
+
+.course-price {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.course-description {
+  width: 78%;
+  height: auto;
+}
+
+#fineprint {
+  margin-top: 120px;
+  border-top: 1px solid $dark-color;
+  text-align: left;
+}
+
+#arrow-up-ohep, 
+#arrow-up-cfsc, 
+#arrow-up-crfsc, 
+#arrow-up-allinone, 
+#arrow-up-bearanoia, 
+#arrow-up-ibep, 
+#arrow-up-ibep, 
+#arrow-up-shooting, 
+#arrow-up-bowhunting {
+  display: none;
+}
+
+// Locations //
+
+#locations {
+  @include type-container;
+  width: 90%;
+}
+
+#locations-container {
+    vertical-align: middle;
+}
+
+#map-container {
+  height: 350px;
+  width: 450px;
+  display: inline-block;
+}
+
+.locations-row {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.address-box {
+  width: 300px;
+  display: inline-block;  
+  padding: 15px 0px;
+  border: 1px solid transparent;
+  transition: $stdtransition;
+  &:hover {
+    cursor: pointer;
+    @include text-click;
+  }
+}
+
+.selected-location {
+  border: 1px solid $dark-color;
+  padding: 15px 0px;
+  height: auto;
+}
+
+// Footer //
+
+footer {
+  margin-top: 100px;
+  background-color: $dark-color;
+  color: $light-color;
+  @include linx ($light-color, $light-color, $click-color, $light-color);
+}
+
+// contact form
+
+#form-container {
+  width: 50%;
+  margin: 0px auto;
+  font-family: $font-sans;
+  font-size: $stdfontsize;
+}
+
+#form-container h1 {
+  font-size: $standardh1size;
+  color: $dark-color;
+  text-transform: uppercase;
+}
+
+.form-inline-component {
+  display: inline-block;
+  width: 49%;
+}
+
+.form-subject {
+  width: 100%;
+}
+
+#form-header {
+  width: auto;
+  text-align: center;  
+}
+
+#contact-g2g {
+  margin-top: 20px;
+  color: $dark-color;
+}
+
+#contact-g2g input:not([type=submit]), #contact-g2g textarea, #contact-g2g select {
+  color: $dark-color;
+  background-color: white;
+  width: 97%;
+  margin-bottom: 35px;
+  margin-top: 7px;
+  border: $stddarkborder;
+  padding: 5px;
+}
+
+#contact-g2g textarea {
+  height: 200px;
+}
+
+#initiate-contact {
+  width: auto;
+  text-align: center;
+}
+
+#initiate-contact input[type=submit] {
+  width: 175px;
+  height: auto;
+  background-color: #ccc;
+  color: $dark-color;
+  border: 1px solid $dark-color;
+  font: {
+    weight: bold;
+    size: 24px;
+  }
+  text-transform: uppercase;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  transition: $stdtransition;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#initiate-contact input[type=submit]:hover {
+  color: $dark-color;
+  border: 1px solid $dark-color;
+  background-color: $highlight-color;
+}
+
+#gotobooking {
+  width: 175px;
+  height: auto;
+  background-color: #ccc;
+  color: $dark-color;
+  border: 1px solid $dark-color;
+  font: {
+    weight: 300;
+    size: 24px;
+  }
+  text-transform: uppercase;
+  margin: 30px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  transition: $stdtransition;
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+#gotobooking {
+  width: 250px;
+}
+
+#gotobooking a {
+  transition: $stdtransition;
+  text-decoration: none;
+  color: $dark-color;
+}
+
+#gotobooking:hover {
+  background-color: $highlight-color;
+}
+
+#bookingcontainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 115px;
+}
+
+#inset-logo {
+  position: relative;
+  height: 160px;
+  width: 180px;
+  margin: 0px auto;
+  padding-top: 25px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  top: -65px;
+  background-color: $dark-color;
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  color: #808080;
+  font-family: $font-serif;
+}
+
+.footer-content {
+  width: 95%;
+  display: relative;
+  border-top: 1px solid #3b3b3b;
+  font-size: $stdfontsize;
+  text-align: center;
+  font-family: $font-sans;
+  margin: -50px auto;
+  color: #696969;
+ }
+
+ .footer-content p {
+  font-size: 14px;
+ }
+
+ .footer-content a {
+  color: #696969 !important;
+ }
+
+ .footer-content a:hover {
+  color: $highlight-color !important;
+ }
+
+#copyright-info {
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+
+#rowtainer {
+  position: relative;
+  display: block;
+  top: -80px;
+  width: 100%;
+  vertical-align: top;
+  text-align: center;
+  color: #696969;
+  font-size: 0.9em;
+}
+
+#approved-bar a {
+  color: #696969;
+}
+
+#approved-bar a:hover {
+  color: $highlight-color;
+}
+
+#address-bar {
+  height: 100%;
+  display: inline-block;
+  position: relataive;
+  text-align: left;
+}
+
+#address-bar, #approved-bar {
+  width: 200px;
+}
+
+#approved-bar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#approved-bar ul {
+  padding: 0px;
+}
+
+
+#approved-bar li {
+  list-style-type: none;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+#approved-bar p {
+  text-align: left;
+}
+
+#social-bar {
+text-align: center;
+position: relative;
+display: inline-block;
+padding: 0px;
+top: -100px;
+margin: 0px 10%;
+}
+
+#social-bar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#social-bar li {
+  display: inline-block;
+  height: 40px;
+  width: 50px;
+  background-color: $click-color;
+  border: 1px solid $click-color;
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin: 0px 15px;
+  transition: $stdtransition;
+}
+
+#social-bar li:hover {
+  background-color: $highlight-color;
+  color: #fff;
+  border: 1px solid $highlight-color;
+  cursor: pointer;
+}
+
+#social-bar a:hover {
+  color: #fff;
+}
+
+
+
+.booking-button {
+  width: 250px;
+  height: 60px;
+  background-color: $clear-container;
+  color: $light-color;
+  border: $stdlightborder;
+  font: {
+    weight: bold;
+    size: 24px;
+  }
+  text-transform: uppercase;
+  margin: 70px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  transition: $stdtransition;
+}
+
+.booking-button:hover {
+  @include click-me;
+}
+
+// MEDIA QUERIES //
+
+// Portrait orientation for mobile devices //
+
+@media only screen
+  and (orientation: portrait) {
+    #welcome, #courses, #guided-hunts, #locations, #fineprint, #staff, #form-container {
+      width: 90%;
+      font-size: 30px;
+      h1 {
+        font-size: 72px;
+      }
+      h3 {
+        font-size: 36px;
+      }
+    }
+    #mast-text {
+      h5 {
+        font-size: 28px;
+      }
+    }
+    .image-block {
+      height: 10%;
+    }
+    #masthead {
+      min-height: 80%;
+    }
+    #mast-text {
+      margin-top: -10%;
+    }
+    body {
+      padding-top: -50%
+    }
+    #m-bar {
+      position: fixed;
+      display: block;
+      line-height: 60px;
+      height: 6em;
+      width: 100%;
+      background-color: $dark-color;
+      z-index: 400;
+      color: $light-color;
+      text-align: right;
+      margin: 0px;
+    }
+    #burger {
+      font-size: 4em;
+      padding: 0.3em 0.3em 0 0; 
+    }
+    #m-menu {
+      top: 5.9em;
+      padding-bottom: 1em;
+    }
+    #m-menu ul li {
+      font-size: 40px;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    #events-preview {
+      height: 130px;
+      width: 85%;
+    }
+    #event-list {
+      height: 100px;
+      width: 100%;
+      font:
+      {
+        size: 1.6em;
+      }
+    }
+    .top {
+      margin-top: -1em;
+    }
+    #d-menu {
+      visibility: hidden;
+    }
+    #social-bar {
+      margin: 0px 5%;
+    }
+
+  }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #g2g-header-block img {
+      transform: scale(0.8);
+      margin-bottom: -30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .top {
+    margin-top: 0px;
+  }
+  #g2g-header-block img {
+      transform: scale(0.7);
+      margin-bottom: -60px;
+    }
+  #g2g-header-block h3 {
+    margin-bottom: -30px;
+  }
+  #events-preview {
+    margin-bottom: -100px;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+  #masthead {
+    min-height: 65%;
+  }
+
+  #mast-text {
+    margin-top: -30%;
+  }
+}

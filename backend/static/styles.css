@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+input {
+	width: 550px;
+	border: 1px solid black;
+}
+
+textarea {
+	display: inline-block;
+	border: 1px solid black;
+	height: 1.1em;
+	overflow: hidden;
+	resize: none;
+	width: 450px;
+	vertical-align: middle;
+}
+
+li {
+	list-style-type: none;
+	vertical-align: middle;
+	margin: 7px 0px;
+}
+
+#bodybag {
+	border: 1px solid black;
+	width: 650px;
+	margin: 20px auto;
+	padding: 10px 20px 50px 20px;
+}
+
+.delbutton {
+	color: black;
+	height: 1.1em;
+	margin-left: 5px;
+}
+
+.delbutton:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.upbutton {
+	margin-left: 5px;
+}
+
+.upbutton:hover {
+	color: #38A3C7;
+}
+
+button {
+	border: 1px solid black;
+	background-color: #ccc;
+	color: black;
+	padding-top: 2px;
+}
+
+button:hover {
+	background-color: green;
+	color: white;
+
+}
+
+@media only screen
+  and (orientation: portrait) {
+  	body {
+  		font-size: 2em;
+  	}
+	input {
+		width: 80%;
+	}
+	#bodybag {
+		width: 90%;
+		border: 1px solid transparent;
+	}
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guide to Game - Event List Manager</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+<body>
+  <div id="bodybag">
+  <h1>Guide to Game - Event List Manager</h1>
+  <p>To <strong>add</strong> an event, simply type a description and click "add" button.</p>
+  <p>To <strong>delete</strong> an event, just click the delete button to the right of its description.</p>
+  <h2>Upcoming Events</h2>
+  <ul class="events">
+  <% for(var i=0; i<events.length; i++) {%>
+    <li class="event">
+      <span class="eventinfo"><%= events[i].event %></span><span class="delbutton"><i class="fas fa-times-circle"></i></span><!-- <span class="editbutton">edit</span> -->
+    </li>
+  <% } %>
+  </ul>
+
+  <h2>Add an Event</h2>
+  <form action="/events" method="POST">
+    <input type="text" name="event">
+    <button type="submit" id="addevent">add</button>
+  </form>
+  <script src="main.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+input, select, textarea {
+	margin: 10px 0;
+	border: 1px solid #666; 
+}
+
+
+body {
+	font-family: 'Raleway', arial, sans-serif;
+	background-color: #fdf6ee;
+	font-size: 1em;
+}
+
+fieldset {
+	width: 55%;
+	margin: 10px auto;
+	border: 1px solid #666;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h3 {
+	font-family: 'Playfair', arial, sans-serif;
+}
+
+textarea {
+	width: 98%;
+	height: 150px;
+	margin: 5px 0px;
+}
+
+div {
+	margin: 15px 0px;
+}
+
+li {
+	margin: 10px auto;
+}
+
+a, a:visited, a:active, a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ff5900;
+}
+
+p {
+	text-align: center;
+}
+
+#go-button {
+	width: 130px;
+	height: 30px;
+	margin: 20px auto 40px auto;
+	display: block;
+	background-color: #fdf6ee;
+}
+
+#go-button:hover {
+	cursor: pointer;
+	background-color:  #ffac80;
+}
+
+.all-caps {
+	text-transform: uppercase;
+}
+
+.color-emphasis {
+	color: #ff5900;
+}
+
+#fname,
+#lname,
+#email,
+#streetaddy,
+#regemail {
+	width: 50%;
+}
+
+#height, #birthyear {
+	width: 10%;
+}
+
+@media only screen and (orientation: portrait) {
+	fieldset {
+		width: 95%;
+	}
+
+	body {
+		font-size: 1.6em;
+	}
+
+	.courses {
+		margin: 20px 0;
+	}
+}
