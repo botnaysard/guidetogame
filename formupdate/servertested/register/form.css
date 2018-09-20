@@ -1,0 +1,137 @@
+input, select, textarea {
+	margin: 10px 0;
+	border: 1px solid #666; 
+	background-color: #fff;
+	color: #000;
+}
+
+
+body {
+	font-family: 'Raleway', arial, sans-serif;
+	background-color: #fdf6ee;
+	font-size: 1em;
+}
+
+fieldset {
+	width: 55%;
+	margin: 10px auto;
+	border: 1px solid #666;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+
+
+textarea {
+	width: 98%;
+	height: 150px;
+	margin: 5px 0px;
+}
+
+div {
+	margin: 15px 0px;
+}
+
+li {
+	margin: 10px auto;
+}
+
+a, a:visited, a:active, a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ff5900;
+}
+
+p {
+	text-align: center;
+}
+
+i {
+	margin: 0px;
+	padding: 0px;
+}
+
+#tbox {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.topper {
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0px;
+}
+
+.t-pic {
+	margin-top: 50px;
+}
+
+.t-text {
+	margin-top: -20px;
+}
+
+#go-button {
+	width: 130px;
+	height: 30px;
+	margin: 20px auto 40px auto;
+	display: block;
+	background-color: #ccc;
+	transition: all 0.18s ease-in-out 0s;
+}
+
+#go-button:hover {
+	cursor: pointer;
+	background-color:  #f9b424;
+}
+
+.all-caps {
+	text-transform: uppercase;
+}
+
+.color-emphasis {
+	color: #ff5900;
+}
+
+#fname,
+#mname,
+#city,
+#lname,
+#email,
+#streetaddy,
+#regemail {
+	width: 50%;
+}
+
+#height, #birthyear {
+	width: 10%;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+@media only screen and (orientation: portrait) {
+	fieldset {
+		width: 95%;
+	}
+
+	body {
+		font-size: 1.6em;
+	}
+
+	.courses {
+		margin: 20px 0;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	#tbox {
+		width: 90%;
+	}
+}
