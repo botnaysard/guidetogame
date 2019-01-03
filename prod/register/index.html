@@ -4,51 +4,46 @@
 	<meta charset="UTF-8">
 	<title>Guide to Game Course Registration</title>
 	<link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../styles/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="form.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 	<script src="register.js"></script>
 </head>
 <body>
-	<h1>Guide to Game Course Registration</h1>
-	<form id="registration">
+	<div id="tbox">
+		<div class="topper t-pic"><img src="../images/booking-logo.png"></div>
+		<div class="topper t-text"><h1>Guide to Game Course Registration</h1></div>
+	</div>
+	
+	
+	<form id="gform">
 		<fieldset>
 			<h3>Instructions</h3>
 			<ul>
 				<li>Browse the upcoming courses and select the one you want to take.</li>
 				<li>Complete all required fields; you can't submit the form if you don't.</li>
 				<li>Follow the instructions in the "Payment Method" section carefully</li>
-				<li>If you have any questions, contact us at <strong>guidetogame&#64;gmail.com</strong></li>
+				<li>If you have any questions, contact us at <strong>guidetogame<i class="fa fa-at" aria-hidden="true"></i>gmail.com</strong></li>
 				<li>For course descriptions and more information about Guide to Game, check the <a href="http://www.guidetogame.com">main site</a>.</li>
-
 			</ul>
 		</fieldset>
 		<fieldset id="courses">
 		    <h3>Upcoming Courses</h3>
-			<select name="courseinfo" id="courseinfo">
-				<!-- <option value="February 23-24, 2018 CFSC @ EO">February 23-24, 2018 CFSC (Easthill Outdoors) - $185</option>
-				<option value="February 25, 2018 CRFSC @ EO">February 25, 2018 CRFSC (Easthill Outdoors) - $185</option> -->
-				<option value="March 25, 2018, CRFSC @ EO">March 25, 2018 CRFSC (Easthill Outdoors) - $185</option>
-				<option value="March 30 - April 1, 2018, All-in-One @ Ranch">March 30 - April 1, 2018 All-in-One (Guide to Game Ranch) - $325</option>
-				<option value="March 30-31, 2018 CFSC @ Ranch">March 30-31, 2018 CFSC (Guide to Game Ranch) - $185</option>
-				<option value="March 30 - April 1, 2018 OHEP @ Ranch">March 30 - April 1 2018 OHEP (Guide to Game Ranch) - $195</option>
-				<option value="April 13-15, 2018, All-in-One @ EO">April 13-15, 2018 All-in-One (Easthill Outdoors) - $325</option>
-				<option value="April 13-14, 2018 CFSC @ EO">April 13-14, 2018 CFSC (Easthill Outdoors) - $185</option>
-				<option value="April 14-15, 2018 OHEP @ EO">April 14-15, 2018 OHEP (Easthill Outdoors) - $195</option>
-				<option value="April 22, 2018 CRFSC @ EO">April 22, 2018 CRFSC (Easthill Outdoors) - $185</option>
-				<option value="May 11-13, 2018, All-in-One @ Ranch">May 11-13, 2018 All-in-One (Guide to Game Ranch) - $325</option>
-				<option value="May 11-12, 2018 CFSC @ Ranch">May 11-12, 2018 CFSC (Guide to Game Ranch) - $185</option>
-				<option value="May 12-13, 2018 OHEP @ Ranch">May 12-13, 2018 OHEP (Guide to Game Ranch) - $195</option>
+			<select name="courseinfo" id="courseinfo" required autofocus>
+				<!-- dynamic content here -->
 			</select>
 		</fieldset>
 		<fieldset>
 			<h3>Vitals</h3>
 	        *First Name: <input type="text" id="fname" required>
 	        <br>
+	        Middle Name: <input type="text" id="mname">
+	        <br>
 	        *Last Name: <input type="text" id="lname" required>
 	        <br>
 	        *Date of Birth (dd-mm-yyyy): 
-			<select name="birthday" id="birthday">
+			<select name="birthday" id="birthday" required>
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -82,7 +77,7 @@
 				<option value="31">31</option>
 			</select>
 			 - 
-			<select name="birthmonth" id="birthmonth">
+			<select name="birthmonth" id="birthmonth" required>
 				<option value="January">January</option>
 				<option value="February">February</option>
 				<option value="March">March</option>
@@ -109,16 +104,16 @@
 						}
 			}
 			</script>
-			<input type="number" id="birthyear" min="1900" max="2018" onblur="validateYear(this.value);" required>
+			<input type="number" id="birthyear" min="1900" max="2018" onblur="validateYear(this.value);" placeholder="1975" required>
 			<br>
 			*Sex: 
-		    <select name="regsex" id="regsex">
+		    <select name="regsex" id="regsex" required>
 		    	<option value="male">Male</option>
 		    	<option value="female">Female</option>
 		    </select>
 			<br>
 		    *Eye Color:
-		    <select name="eyecol" id="eyecol">
+		    <select name="eyecol" id="eyecol" required>
 				<option value="Brown">Brown</option>
 				<option value="Blue">Blue</option>
 				<option value="Green">Green</option>
@@ -174,6 +169,25 @@
 	        <br>
 	        *Street Address: <input type="text" id="streetaddy" required>
 	        <br>
+	        *City: <input type="text" id="city" required>
+	        <br>
+			*Province: 
+			<select name="prov" id="prov" required>
+				<option value="ontario">ON</option>
+				<option value="quebec">QC</option>
+				<option value="alberta">AB</option>
+				<option value="british columbia">BC</option>
+				<option value="manitoba">MB</option>
+				<option value="new brunswick">NB</option>
+				<option value="newfoundland">NL</option>
+				<option value="northwest territories">NT</option>
+				<option value="nova scotia">NS</option>
+				<option value="nunavut">NU</option>
+				<option value="p.e.i.">PE</option>
+				<option value="saskatchewan">SK</option>
+				<option value="yukon">YT</option>
+			</select>
+			<br>
 	        *Postal Code: <input type="text" id="postcode" required onblur="validatePostal(this.value);">
 	        <br>
 	        *Day Phone: <input type="text" id="dayphone" required onblur="validatePhone(this.value, this.id);">
@@ -206,14 +220,12 @@
 		</select>
 		<div class="all-caps"><strong>Important - Please Read!</strong></div>
 		<div>
-			If wish to pay by <strong>Interac E-mail Transfer</strong> please send the funds to <strong>guidetogame&#64;gmail.com</strong> as soon as possible after submitting the form.
-		</div>
-		<div>
-			If you wish to pay by <strong>Credit Card</strong> submit your information and proceed to our <strong><a href="https://squareup.com/store/guidetogame" class="color-emphasis">payment portal</a></strong>. 
+			Shortly after your registration information is received by Guide to Game, we will send you a message that contains additional information regarding your booking.  Please send payment promptly in order to secure your seat.  If you have any questions or concerns, you can reach us by e-mail at <strong>guidetogame<i class="fa fa-at" aria-hidden="true"></i>gmail.com</strong> or by phone at <strong><span class="nowrap">+1 (905) 925-6500</span></strong>.
 		</div>
 		</fieldset>
 		<input type="submit" value="Register" id="go-button">
 	</form>
 	<p>&copy; Guide to Game 2007-2018.</p>
+	<div id="show-data"></div>
 </body>
 </html>

@@ -17,7 +17,7 @@
 	</div>
 	
 	
-	<form id="registration">
+	<form id="gform">
 		<fieldset>
 			<h3>Instructions</h3>
 			<ul>
@@ -30,7 +30,7 @@
 		</fieldset>
 		<fieldset id="courses">
 		    <h3>Upcoming Courses</h3>
-			<select name="courseinfo" id="courseinfo">
+			<select name="courseinfo" id="courseinfo" required autofocus>
 				<!-- dynamic content here -->
 			</select>
 		</fieldset>
@@ -43,7 +43,7 @@
 	        *Last Name: <input type="text" id="lname" required>
 	        <br>
 	        *Date of Birth (dd-mm-yyyy): 
-			<select name="birthday" id="birthday">
+			<select name="birthday" id="birthday" required>
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -77,7 +77,7 @@
 				<option value="31">31</option>
 			</select>
 			 - 
-			<select name="birthmonth" id="birthmonth">
+			<select name="birthmonth" id="birthmonth" required>
 				<option value="January">January</option>
 				<option value="February">February</option>
 				<option value="March">March</option>
@@ -107,13 +107,13 @@
 			<input type="number" id="birthyear" min="1900" max="2018" onblur="validateYear(this.value);" placeholder="1975" required>
 			<br>
 			*Sex: 
-		    <select name="regsex" id="regsex">
+		    <select name="regsex" id="regsex" required>
 		    	<option value="male">Male</option>
 		    	<option value="female">Female</option>
 		    </select>
 			<br>
 		    *Eye Color:
-		    <select name="eyecol" id="eyecol">
+		    <select name="eyecol" id="eyecol" required>
 				<option value="Brown">Brown</option>
 				<option value="Blue">Blue</option>
 				<option value="Green">Green</option>
@@ -172,7 +172,7 @@
 	        *City: <input type="text" id="city" required>
 	        <br>
 			*Province: 
-			<select name="prov" id="prov">
+			<select name="prov" id="prov" required>
 				<option value="ontario">ON</option>
 				<option value="quebec">QC</option>
 				<option value="alberta">AB</option>
