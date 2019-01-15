@@ -1,26 +1,26 @@
-/* line 105, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 105, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 110, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 110, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 body {
   background-color: #fdf6ee;
   position: relative;
 }
 
-/* line 117, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 117, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .hide-me {
   display: none;
 }
 
-/* line 121, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 121, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .nowrap {
   display: inline-block;
 }
 
-/* line 127, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 127, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu, #m-menu {
   height: auto;
   line-height: 40px;
@@ -35,13 +35,13 @@ body {
   color: #fdf6ee;
 }
 
-/* line 139, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 139, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu ul, #m-menu ul {
   list-style-type: none;
   margin: 0px;
 }
 
-/* line 142, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 142, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu ul li, #m-menu ul li {
   display: inline-block;
   text-transform: uppercase;
@@ -49,55 +49,55 @@ body {
   font-weight: bold;
 }
 
-/* line 69, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 69, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu ul li a, #m-menu ul li a {
   color: #fdf6ee;
   text-decoration: none;
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 73, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 73, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu ul li a:visited, #m-menu ul li a:visited {
   color: #fdf6ee;
 }
 
-/* line 76, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 76, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu ul li a:hover, #m-menu ul li a:hover {
   color: #f9b424;
 }
 
-/* line 79, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 79, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu ul li a:active, #m-menu ul li a:active {
   color: #fdf6ee;
 }
 
-/* line 152, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 152, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #d-menu a, #m-menu a {
   height: 40px;
 }
 
-/* line 157, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 157, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #menu-booking {
   color: #ff5900 !important;
 }
 
-/* line 161, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 161, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #menu-booking:hover {
   color: #f9b424 !important;
 }
 
-/* line 165, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 165, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #m-menu, #m-bar {
   display: none;
 }
 
-/* line 171, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 171, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #masthead {
   min-height: 100%;
   background: url("../images/forest-header.jpg") no-repeat center center scroll;
 }
 
-/* line 176, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 176, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text {
   position: absolute;
   height: 100%;
@@ -105,29 +105,29 @@ body {
   display: table;
 }
 
-/* line 69, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 69, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text a {
   color: #fdf6ee;
   text-decoration: none;
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 73, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 73, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text a:visited {
   color: #fdf6ee;
 }
 
-/* line 76, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 76, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text a:hover {
   color: #fdf6ee;
 }
 
-/* line 79, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 79, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text a:active {
   color: #262626;
 }
 
-/* line 182, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 182, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text h1 {
   margin: 0px;
   padding: 0px;
@@ -138,7 +138,7 @@ body {
   font-weight: bold;
 }
 
-/* line 193, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 193, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text h3 {
   color: #fdf6ee;
   margin: 5px 0px;
@@ -148,14 +148,14 @@ body {
   font-weight: regular;
 }
 
-/* line 203, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 203, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mast-text h5 {
   font-size: 20px;
   margin: 0px 0px 10px 0px;
   text-decoration: underline;
 }
 
-/* line 212, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 212, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #g2g-header-block {
   display: table-cell;
   vertical-align: middle;
@@ -168,27 +168,27 @@ body {
   right: 0;
 }
 
-/* line 224, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 224, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #options-bar {
   margin-top: 60px;
   color: #fdf6ee;
   width: 100%;
 }
 
-/* line 228, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 228, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #options-bar p {
   font-family: "Raleway", sans-serif;
   font-weight: 200;
   font-size: 24px;
 }
 
-/* line 236, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 236, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #header-down {
   display: inline-block;
   text-align: center;
 }
 
-/* line 241, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 241, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #events-preview {
   width: 540px;
   height: 115px;
@@ -200,7 +200,7 @@ body {
   position: relative;
 }
 
-/* line 254, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 254, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #events-preview::-webkit-scrollbar {
   width: 0px;
   /* remove scrollbar space */
@@ -208,12 +208,12 @@ body {
   /* optional: just make scrollbar invisible */
 }
 
-/* line 259, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 259, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #events-preview:hover {
   cursor: pointer;
 }
 
-/* line 263, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 263, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #event-list {
   background-color: rgba(255, 255, 255, 0);
   border: none;
@@ -222,39 +222,40 @@ body {
   bottom: 0px;
   left: 0px;
   right: -25px;
+  /* exact value is given through JavaScript */
   overflow: auto;
 }
 
-/* line 274, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 274, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #event-list p {
   font-size: 1em;
   margin: 3px 0px;
 }
 
-/* line 279, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 279, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .scroller {
   height: 70px;
   width: 520px;
   padding: 0px 10px;
 }
 
-/* line 285, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 285, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 select::-webkit-scrollbar {
   width: 8px;
 }
 
-/* line 289, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 289, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 select::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 293, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 293, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 select:focus {
   outline: none;
   border: none;
 }
 
-/* line 298, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 298, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 option {
   margin-right: 7px;
 }
@@ -268,19 +269,19 @@ option {
           transform: scale(0.9);
 }
 */
-/* line 312, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 312, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #header-down div {
   margin: 5px 0px;
 }
 
-/* line 318, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 318, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .white-block {
   color: #262626;
   background-color: #fdf6ee;
   padding: 70px 0px;
 }
 
-/* line 324, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 324, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .image-block {
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -290,12 +291,12 @@ option {
   padding: 70px 0px;
 }
 
-/* line 330, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 330, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .allcaps {
   text-transform: uppercase;
 }
 
-/* line 336, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 336, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome, #courses, #guided-hunts, #locations, #fineprint {
   width: 65%;
   margin: 0px auto;
@@ -305,7 +306,7 @@ option {
   font-weight: 300;
 }
 
-/* line 45, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 45, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome h1, #courses h1, #guided-hunts h1, #locations h1, #fineprint h1 {
   text-align: center;
   margin-bottom: 50px;
@@ -315,7 +316,7 @@ option {
   font-weight: bold;
 }
 
-/* line 55, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 55, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome h3, #courses h3, #guided-hunts h3, #locations h3, #fineprint h3 {
   text-align: left;
   font-size: 24px;
@@ -323,64 +324,64 @@ option {
   font-weight: 300;
 }
 
-/* line 63, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 63, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome p, #courses p, #guided-hunts p, #locations p, #fineprint p {
   margin-bottom: 40px;
 }
 
-/* line 69, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 69, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome a, #courses a, #guided-hunts a, #locations a, #fineprint a {
   color: #ff5900;
   text-decoration: none;
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 73, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 73, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome a:visited, #courses a:visited, #guided-hunts a:visited, #locations a:visited, #fineprint a:visited {
   color: #ff5900;
 }
 
-/* line 76, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 76, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome a:hover, #courses a:hover, #guided-hunts a:hover, #locations a:hover, #fineprint a:hover {
   color: #ff5900;
 }
 
-/* line 79, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 79, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome a:active, #courses a:active, #guided-hunts a:active, #locations a:active, #fineprint a:active {
   color: #ff5900;
 }
 
-/* line 341, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 341, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #welcome a:hover, #courses a:hover, #guided-hunts a:hover {
   text-decoration: underline;
 }
 
-/* line 345, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 345, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #img-block-one {
   background-image: url("../images/imageblock1.jpg");
 }
 
-/* line 349, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 349, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #img-block-two {
   background-image: url("../images/imageblock2.jpg");
 }
 
-/* line 353, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 353, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #img-block-three {
   background-image: url("../images/imageblock3.jpg");
 }
 
-/* line 357, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 357, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #img-block-four {
   background-image: url("../images/imageblock4.jpg");
 }
 
-/* line 361, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 361, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #img-block-five {
   background-image: url("../images/imageblock5.jpg");
 }
 
-/* line 367, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 367, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #staff {
   width: 65%;
   margin: 0px auto;
@@ -392,7 +393,7 @@ option {
   width: 85% !important;
 }
 
-/* line 45, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 45, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #staff h1 {
   text-align: center;
   margin-bottom: 50px;
@@ -402,7 +403,7 @@ option {
   font-weight: bold;
 }
 
-/* line 55, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 55, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #staff h3 {
   text-align: left;
   font-size: 24px;
@@ -410,37 +411,37 @@ option {
   font-weight: 300;
 }
 
-/* line 63, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 63, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #staff p {
   margin-bottom: 40px;
 }
 
-/* line 373, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 373, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .staff-row {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 378, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 378, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .staff-box {
   margin: 20px 50px 0px 50px;
   text-align: center;
   display: inline-block;
 }
 
-/* line 382, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 382, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .staff-box:hover {
   cursor: pointer;
   color: #ff5900;
 }
 
-/* line 388, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 388, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .ghost-box {
   width: 354px;
   display: inline-block;
 }
 
-/* line 393, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 393, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .staff-pic {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -451,13 +452,13 @@ option {
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 398, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 398, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .staff-pic:hover {
   border: 1px solid #ff5900;
   cursor: pointer;
 }
 
-/* line 405, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 405, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .staff-name {
   margin: 25px 0px 0px 0px;
   padding: 25px 0px;
@@ -466,7 +467,7 @@ option {
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 415, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 415, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .bio-box {
   margin: 0px auto;
   padding: 25px;
@@ -475,41 +476,41 @@ option {
   display: none;
 }
 
-/* line 423, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 423, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .close-bio {
   width: 100%;
   text-align: right;
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 427, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 427, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .close-bio:hover {
   cursor: pointer;
   color: #ff5900;
 }
 
-/* line 433, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 433, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #red-pic {
   background: url("../images/red.jpg") no-repeat center center scroll;
 }
 
-/* line 437, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 437, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #mj-pic {
   background: url("../images/mj.jpg") no-repeat center center scroll;
 }
 
-/* line 441, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 441, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #sam-pic {
   background: url("../images/sam.jpg") no-repeat center center scroll;
 }
 
-/* line 447, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 447, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #course-list {
   width: 95%;
   margin: 0px auto;
 }
 
-/* line 452, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 452, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .course-module {
   width: 95%;
   height: auto;
@@ -517,7 +518,7 @@ option {
   padding: 0px;
 }
 
-/* line 459, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 459, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .course-title {
   width: 78%;
   height: auto;
@@ -525,19 +526,19 @@ option {
   margin: 5px 0px;
 }
 
-/* line 463, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 463, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .course-title:hover {
   cursor: pointer;
   cursor: pointer;
   color: #ff5900;
 }
 
-/* line 470, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 470, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .course-module h3 {
   margin: 0px;
 }
 
-/* line 474, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 474, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .course-price {
   width: 20%;
   height: auto;
@@ -545,24 +546,25 @@ option {
   padding-left: 5px;
 }
 
-/* line 481, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 481, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .course-description {
   width: 78%;
   height: auto;
 }
 
-/* line 486, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 486, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #fineprint {
   margin-top: 120px;
   border-top: 1px solid #262626;
   text-align: left;
 }
 
-/* line 492, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 492, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #arrow-up-ohep,
 #arrow-up-cfsc,
 #arrow-up-crfsc,
 #arrow-up-allinone,
+#arrow-up-fireall,
 #arrow-up-bearanoia,
 #arrow-up-ibep,
 #arrow-up-ibep,
@@ -571,7 +573,7 @@ option {
   display: none;
 }
 
-/* line 506, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 507, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #locations {
   width: 65%;
   margin: 0px auto;
@@ -582,7 +584,7 @@ option {
   width: 90%;
 }
 
-/* line 45, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 45, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #locations h1 {
   text-align: center;
   margin-bottom: 50px;
@@ -592,7 +594,7 @@ option {
   font-weight: bold;
 }
 
-/* line 55, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 55, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #locations h3 {
   text-align: left;
   font-size: 24px;
@@ -600,30 +602,30 @@ option {
   font-weight: 300;
 }
 
-/* line 63, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 63, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #locations p {
   margin-bottom: 40px;
 }
 
-/* line 511, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 512, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #locations-container {
   vertical-align: middle;
 }
 
-/* line 515, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 516, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #map-container {
   height: 350px;
   width: 450px;
   display: inline-block;
 }
 
-/* line 521, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 522, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .locations-row {
   text-align: center;
   margin: 20px 0px;
 }
 
-/* line 526, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 527, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .address-box {
   width: 300px;
   display: inline-block;
@@ -632,50 +634,50 @@ option {
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 532, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 533, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .address-box:hover {
   cursor: pointer;
   cursor: pointer;
   color: #ff5900;
 }
 
-/* line 538, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 539, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .selected-location {
   border: 1px solid #262626;
   padding: 15px 0px;
   height: auto;
 }
 
-/* line 546, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 547, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 footer {
   margin-top: 100px;
   background-color: #262626;
   color: #fdf6ee;
 }
 
-/* line 69, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 69, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 footer a {
   color: #fdf6ee;
   text-decoration: none;
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 73, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 73, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 footer a:visited {
   color: #fdf6ee;
 }
 
-/* line 76, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 76, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 footer a:hover {
   color: #ff5900;
 }
 
-/* line 79, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 79, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 footer a:active {
   color: #fdf6ee;
 }
 
-/* line 555, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 556, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #form-container {
   width: 50%;
   margin: 0px auto;
@@ -683,37 +685,37 @@ footer a:active {
   font-size: 20px;
 }
 
-/* line 562, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 563, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #form-container h1 {
   font-size: 48px;
   color: #262626;
   text-transform: uppercase;
 }
 
-/* line 568, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 569, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .form-inline-component {
   display: inline-block;
   width: 49%;
 }
 
-/* line 573, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 574, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .form-subject {
   width: 100%;
 }
 
-/* line 577, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 578, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #form-header {
   width: auto;
   text-align: center;
 }
 
-/* line 582, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 583, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #contact-g2g {
   margin-top: 20px;
   color: #262626;
 }
 
-/* line 587, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 588, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #contact-g2g input:not([type=submit]), #contact-g2g textarea, #contact-g2g select {
   color: #262626;
   background-color: white;
@@ -724,18 +726,18 @@ footer a:active {
   padding: 5px;
 }
 
-/* line 597, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 598, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #contact-g2g textarea {
   height: 200px;
 }
 
-/* line 601, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 602, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #initiate-contact {
   width: auto;
   text-align: center;
 }
 
-/* line 606, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 607, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #initiate-contact input[type=submit] {
   width: 175px;
   height: auto;
@@ -753,14 +755,14 @@ footer a:active {
   padding: 20px;
 }
 
-/* line 625, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 626, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #initiate-contact input[type=submit]:hover {
   color: #262626;
   border: 1px solid #262626;
   background-color: #f9b424;
 }
 
-/* line 631, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 632, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #gotobooking {
   width: 175px;
   height: auto;
@@ -778,31 +780,31 @@ footer a:active {
   padding: 20px;
 }
 
-/* line 651, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 652, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #gotobooking {
   width: 250px;
 }
 
-/* line 655, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 656, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #gotobooking a {
   transition: all 0.18s ease-in-out 0s;
   text-decoration: none;
   color: #262626;
 }
 
-/* line 661, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 662, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #gotobooking:hover {
   background-color: #f9b424;
 }
 
-/* line 665, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 666, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #bookingcontainer {
   width: 100%;
   text-align: center;
   margin-top: 115px;
 }
 
-/* line 671, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 672, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #inset-logo {
   position: relative;
   height: 160px;
@@ -816,14 +818,14 @@ footer a:active {
   background-color: #262626;
 }
 
-/* line 684, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 685, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .footer-heading {
   text-transform: uppercase;
   color: #808080;
   font-family: "Playfair Display", serif;
 }
 
-/* line 690, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 691, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .footer-content {
   width: 95%;
   display: relative;
@@ -835,28 +837,28 @@ footer a:active {
   color: #696969;
 }
 
-/* line 701, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 702, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .footer-content p {
   font-size: 14px;
 }
 
-/* line 705, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 706, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .footer-content a {
   color: #696969 !important;
 }
 
-/* line 709, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 710, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .footer-content a:hover {
   color: #f9b424 !important;
 }
 
-/* line 713, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 714, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #copyright-info {
   font-size: 12px;
   padding-bottom: 25px;
 }
 
-/* line 718, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 719, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #rowtainer {
   position: relative;
   display: block;
@@ -868,17 +870,17 @@ footer a:active {
   font-size: 0.9em;
 }
 
-/* line 729, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 730, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #approved-bar a {
   color: #696969;
 }
 
-/* line 733, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 734, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #approved-bar a:hover {
   color: #f9b424;
 }
 
-/* line 737, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 738, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #address-bar {
   height: 100%;
   display: inline-block;
@@ -886,35 +888,35 @@ footer a:active {
   text-align: left;
 }
 
-/* line 744, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 745, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #address-bar, #approved-bar {
   width: 200px;
 }
 
-/* line 748, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 749, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #approved-bar {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 753, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 754, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #approved-bar ul {
   padding: 0px;
 }
 
-/* line 758, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 759, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #approved-bar li {
   list-style-type: none;
   text-align: left;
   margin: 10px 0px;
 }
 
-/* line 764, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 765, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #approved-bar p {
   text-align: left;
 }
 
-/* line 768, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 769, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #social-bar {
   text-align: center;
   position: relative;
@@ -924,14 +926,14 @@ footer a:active {
   margin: 0px 10%;
 }
 
-/* line 777, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 778, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #social-bar ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 783, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 784, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #social-bar li {
   display: inline-block;
   height: 40px;
@@ -945,7 +947,7 @@ footer a:active {
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 796, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 797, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #social-bar li:hover {
   background-color: #f9b424;
   color: #fff;
@@ -953,12 +955,12 @@ footer a:active {
   cursor: pointer;
 }
 
-/* line 803, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 804, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 #social-bar a:hover {
   color: #fff;
 }
 
-/* line 809, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 810, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .booking-button {
   width: 250px;
   height: 60px;
@@ -975,47 +977,47 @@ footer a:active {
   transition: all 0.18s ease-in-out 0s;
 }
 
-/* line 827, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+/* line 828, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
 .booking-button:hover {
   cursor: pointer;
   background-color: #ff5900;
 }
 
 @media only screen and (orientation: portrait) {
-  /* line 837, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 838, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #welcome, #courses, #guided-hunts, #locations, #fineprint, #staff, #form-container {
     width: 90%;
     font-size: 30px;
   }
-  /* line 840, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 841, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #welcome h1, #courses h1, #guided-hunts h1, #locations h1, #fineprint h1, #staff h1, #form-container h1 {
     font-size: 72px;
   }
-  /* line 843, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 844, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #welcome h3, #courses h3, #guided-hunts h3, #locations h3, #fineprint h3, #staff h3, #form-container h3 {
     font-size: 36px;
   }
-  /* line 848, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 849, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #mast-text h5 {
     font-size: 28px;
   }
-  /* line 852, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 853, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   .image-block {
     height: 10%;
   }
-  /* line 855, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 856, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #masthead {
     min-height: 80%;
   }
-  /* line 858, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 859, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #mast-text {
     margin-top: -10%;
   }
-  /* line 861, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 862, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   body {
     padding-top: -50%;
   }
-  /* line 864, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 865, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #m-bar {
     position: fixed;
     display: block;
@@ -1028,50 +1030,50 @@ footer a:active {
     text-align: right;
     margin: 0px;
   }
-  /* line 876, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 877, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #burger {
     font-size: 4em;
     padding: 0.3em 0.3em 0 0;
   }
-  /* line 880, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 881, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #m-menu {
     top: 5.9em;
     padding-bottom: 1em;
   }
-  /* line 884, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 885, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #m-menu ul li {
     font-size: 40px;
     display: block;
     width: 100%;
     text-align: center;
   }
-  /* line 890, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 891, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #events-preview {
     height: 130px;
     width: 85%;
   }
-  /* line 894, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 895, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #event-list {
     height: 100px;
     width: 100%;
     font-size: 1.6em;
   }
-  /* line 902, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 903, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   .top {
     margin-top: -1em;
   }
-  /* line 905, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 906, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #d-menu {
     visibility: hidden;
   }
-  /* line 908, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 909, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #social-bar {
     margin: 0px 5%;
   }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 919, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 920, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #g2g-header-block img {
     transform: scale(0.8);
     margin-bottom: -30px;
@@ -1079,20 +1081,20 @@ footer a:active {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 930, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 931, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   .top {
     margin-top: 0px;
   }
-  /* line 933, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 934, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #g2g-header-block img {
     transform: scale(0.7);
     margin-bottom: -60px;
   }
-  /* line 937, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 938, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #g2g-header-block h3 {
     margin-bottom: -30px;
   }
-  /* line 940, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 941, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #events-preview {
     margin-bottom: -100px;
   }
@@ -1100,11 +1102,11 @@ footer a:active {
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  /* line 952, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 953, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #masthead {
     min-height: 65%;
   }
-  /* line 956, C:/Users/botnaysard/Downloads/Documents/Coding/g2g2016/dev/styles/scss/main.scss */
+  /* line 957, C:/Users/botnaysard/Coding/guidetogame/dev/styles/scss/main.scss */
   #mast-text {
     margin-top: -30%;
   }

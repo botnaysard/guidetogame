@@ -49,8 +49,7 @@ $(document).ready(function() {
         var payment = $('#method').val();
 
         $.ajax({
-            url:'https://script.google.com/macros/s/AKfycbzvEFTyT3emWHCRmTFRZcRjDXBKZIy0MY5FUCQg/exec',
-            //url:'https://script.google.com/macros/s/AKfycbyHw0NFP6a0MGjwnmQbdk0fGTtmAHI03xtzceMlHQ/exec',
+            url:'https://script.google.com/macros/s/AKfycby8b6FwiNrEKuQ_IILhGeId-ufqH_D5vX5LDxGf_A/exec',
             method:'POST',
             data:{
                 name: wholeName,
@@ -69,6 +68,8 @@ $(document).ready(function() {
             },
             dataType:"json",
             success:function() { 
+                /**
+
                 if (payment == "cc") {
                     alert("Thanks - we have received your registration! An invoice has been sent to your e-mail address. Click 'OK' to be redirected to Square (our e-commerce platform).");
                     window.location.href = "https://squareup.com/store/guidetogame";
@@ -77,6 +78,8 @@ $(document).ready(function() {
                 } else if (payment =="other") {
                     alert("Thanks - we have received your registration! A member of our staff will contact you to discuss payment.")
                 }
+                **/
+                alert("Thank you for registering with Guide to Game.\n\nYou will receive a confirmation email containing course details and payment options from guidetogame.sharyl@gmail.com within 24 business hours.\n\nPlease note that payment is due upon registration and all sales are final.")
                 var form = document.getElementById("gform");
                 form.reset();
             }     
